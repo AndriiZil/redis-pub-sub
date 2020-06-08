@@ -1,0 +1,24 @@
+{
+  "name": "redis-pub-sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node subscriber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiZil/redis-pub-sub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiZil/redis-pub-sub/issues"
+  },
+  "homepage": "https://github.com/AndriiZil/redis-pub-sub#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
